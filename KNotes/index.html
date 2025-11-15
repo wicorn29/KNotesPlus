@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>KNotes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+
+    <script src="assets/polyfill.js"></script> <!-- For Promises -->
+    <script src="script.js"></script>
+</head>
+<body onload="onPageLoad()">
+    <div id="log" style="display:none;"></div>
+
+    <h1>KNotes v1.0</h1>
+
+    <div id="app-container">
+        <div id="message" class="message"></div>
+
+        <div id="notes-list" class="notes-list">
+            <h2>Your Notes</h2>
+            <div id="notes-container">
+                <!-- Notes will be populated by JavaScript -->
+            </div>
+            <button id="new-note-button" onclick="createNewNote()">New Note</button>
+        </div>
+
+        <div id="editor" class="editor">
+            <div class="editor-header">
+                <span id="current-note-title">Select a note to edit</span>
+                <div class="editor-buttons">
+                    <button id="save-button" onclick="saveNote()" disabled>Save</button>
+                    <button id="delete-button" onclick="deleteNote()" disabled>Delete</button>
+                </div>
+            </div>
+            <textarea id="note-content" placeholder="Start writing your note here..."></textarea>
+        </div>
+    </div>
+
+    <div id="delete-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeDeleteModal()">&times;</span>
+            <p>Are you sure you want to delete this note?</p>
+            <button onclick="confirmDelete()">Yes, Delete</button>
+            <button onclick="closeDeleteModal()">Cancel</button>
+        </div>
+    </div>
+
+    <div id="create-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeCreateModal()">&times;</span>
+            <p>Enter a name for your new note:</p>
+            <input type="text" id="new-note-name" placeholder="Note name" maxlength="50">
+            <button onclick="confirmCreateNote()">Create</button>
+            <button onclick="closeCreateModal()">Cancel</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>KNotes - Notes for Kindle</p>
+    </div>
+</body>
+</html>
