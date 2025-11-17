@@ -7,6 +7,10 @@
   <a href="https://ko-fi.com/kurizu" target="_blank">
     <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi" />
   </a>
+  
+  <a href="https://discord.gg/JtcrpG7ECA" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-Join%20Server-blue?logo=discord" alt="Join Discord Server" style="height: 28px;" />
+  </a>
 </p>
 
 ## Overview
@@ -52,11 +56,4 @@ KNotes is a notes application specifically designed to work on Kindle e-readers.
 ## Credits
 - App by [kurizu](https://kurizu.vercel.app/)
 - Illusion engine by [Penguins184](https://github.com/polish-penguin-dev/)
-
-## Support
-<p>
-  <a href="https://ko-fi.com/kurizu" target="_blank">
-    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi" />
-  </a>
-</p>
 
