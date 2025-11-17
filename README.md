@@ -1,4 +1,6 @@
 # KNotes
+<img width="30%" height="auto" alt="image" src="https://github.com/user-attachments/assets/27371b85-e4e7-499e-8ffa-3698e1450cf5" />
+<img width="30%" height="auto" alt="image" src="https://github.com/user-attachments/assets/61420304-4b32-4b15-bb7f-4f405656aa0d" />
 
 Notes for Kindle e-readers.<br />
 <p>
