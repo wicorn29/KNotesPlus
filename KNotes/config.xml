@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<widget id="xyz.kurizu.knotes" version="1.0" viewmodes="application" xmlns="http://www.w3.org/ns/widgets"
+<widget id="xyz.wicorn29.knotes+" version="1.0" viewmodes="application" xmlns="http://www.w3.org/ns/widgets"
     xmlns:kindle="http://kindle.amazon.com/ns/widget-extensions">
-    <name xml:lang="en">KNotes</name>
-    <description xml:lang="en">Simple Illusion-Based Note Taking Application</description>
+    <name xml:lang="en">KNotes +</name>
+    <description xml:lang="en">Better Illusion-Based Note Taking Application</description>
 
     <content src="index.html" />
 
